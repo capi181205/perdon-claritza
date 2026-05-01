@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+a, button {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 35px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: #ff69b4; /* Rosa */
+    box-shadow: 0 0 15px #ff1493; /* Brillo rosa de las imágenes */
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#btn-random {
+    position: absolute;
+}
